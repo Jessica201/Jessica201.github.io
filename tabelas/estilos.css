@@ -1,0 +1,24 @@
+td, th {
+	border: 2px solid white;
+	padding: 15px;
+
+}
+table {
+    width: 75%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #1E90FF;
+}
+
+td { 
+	background-color: #4CAF50;
+
+}
+
+.Titulo {
+	background-color: #778899;
+color: white;
+}
