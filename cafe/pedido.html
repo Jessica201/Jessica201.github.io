@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pedido online</title>
+</head>
+<body>
+<h1> Café StarBugs</h1><br>
+<h2>Pedido OnLine</h2>
+____________________________________________________________________________
+<p>Preencha o formulário a baixo e clique em "Enviar Pedido" para solicitar a caixa personalizada.</p>
+<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
+<p>Selecione a variedade dos grãos: <select name="graosdecafe">
+<option>Selecione Aqui</option>
+	<option name="graos" value="Arábica">Arábica</option>
+	<option name="graos" value=Robusta>Robusta</option>
+	<option name="graos" value="Kopi Luwak">Kopi Luwak</option>
+	<option></option>
+</select>
+
+<p>Tipo:</p>
+	<input type="radio" name="grao" value="I"> Grãos Inteiros
+	<input type="radio" name="grao" value="M"> Grãos Moidos
+
+<p>Extras</p>
+<p><input type="checkbox" name="Extra" value="Embalar para presente">Embalar para presente
+<input type="checkbox" name="Extra" value="Quqero um catálogo">Quqero um catálogo</p>
+<p>Enviar para:</p>
+<p>Nome:<input type="text" name= "nome"></p></p>
+<p>Endereço:<input type="text" name= "endereco"></p></p>
+<p>Cidade:<input type="text" name= "cidade"></p></p>
+<p>Estado:<input type="text" name= "estado"></p></p>
+<p>CEP:<input type="text" name= "cep"></p></p>
+<p>OBS:<textarea name="obs"> </textarea></p>
+<p><input type="submit" value="Enviar"></p>
+<p><input type="reset" value="Limpar"></p>
+</form action>
+</body>
+</html>
