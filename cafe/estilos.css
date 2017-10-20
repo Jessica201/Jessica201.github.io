@@ -13,7 +13,7 @@ a:hover {
 }
 h1 {
 font-family: verdana; 
-color: red;
+color: pink;
 }
 
 h2 {
@@ -23,4 +23,15 @@ color: blue;
 h3 {
 font-family: verdana; 
 color: yellow;
+}
+ 
+.pedido {
+	border: 2px solid purple;
+}
+.formfield {
+ text-align: right;
+}
+.t {
+	text-align: left;
+	color: purple;
 }
